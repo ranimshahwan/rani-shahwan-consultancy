@@ -49,9 +49,7 @@ Replace these placeholders:
 - `email@example.com`
 - `+000 000 000 000`
 - `https://www.linkedin.com/`
-- `assets/images/portrait-placeholder.svg`
-
-A vertical portrait around 1200 × 1500 pixels works well. Add it inside `assets/images/`, then update the image references in the English and Arabic Home, About, and Contact pages.
+- `assets/images/portrait.jpg` contains the current profile photograph.
 
 The website has no contact-form backend. Email and mobile actions use standard `mailto:` and `tel:` links.
 

@@ -1556,6 +1556,51 @@ a.contact-action:hover {
   font-weight: 700;
 }
 
+.profile-shortcuts {
+  margin-block-start: 28px;
+  padding-block-start: 24px;
+  border-block-start: 1px solid var(--line);
+}
+
+.profile-shortcuts > p {
+  margin-block-end: 12px;
+  color: var(--navy);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+html[dir="rtl"] .profile-shortcuts > p {
+  letter-spacing: 0;
+}
+
+.profile-shortcuts > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.profile-shortcuts a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  color: var(--navy);
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 750;
+  transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.profile-shortcuts a:hover {
+  color: var(--white);
+  border-color: var(--navy);
+  background: var(--navy);
+}
+
 .professional-links-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

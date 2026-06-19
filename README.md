@@ -42,16 +42,16 @@ The root `index.html` lets visitors choose English or Arabic. Each page has a la
 
 No base URL changes are required because the website uses relative internal links.
 
-## Before publishing
+## Current contact details
 
-Replace these placeholders:
+- Email: `r.shahwan@najah.edu`
+- WhatsApp: `+970 592918081`
+- Location: Nablus, Palestine
+- Profile photograph: `assets/images/portrait.jpg`
 
-- `email@example.com`
-- `+000 000 000 000`
-- `https://www.linkedin.com/`
-- `assets/images/portrait.jpg` contains the current profile photograph.
+The contact page includes working links to the An-Najah staff profile, Google Scholar, ORCID, LinkedIn, ResearchGate, and the CV on Google Drive.
 
-The website has no contact-form backend. Email and mobile actions use standard `mailto:` and `tel:` links.
+The website has no contact-form backend. Email and mobile actions use standard `mailto:` and `tel:` links, and WhatsApp opens through `wa.me`.
 
 ## Test locally
 

@@ -1,4 +1,6 @@
 (() => {
+  document.documentElement.classList.add("js");
+
   const body = document.body;
   const toggle = document.querySelector(".menu-toggle");
   const navLinks = document.querySelectorAll(".site-nav a");

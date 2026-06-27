@@ -519,8 +519,10 @@ html[dir="rtl"] .hero h1.hero-title-long {
 .hero-portrait {
   position: relative;
   display: grid;
+  gap: 18px;
   min-height: 470px;
-  place-items: center;
+  align-content: center;
+  justify-items: center;
 }
 
 .monogram-stage {
@@ -561,16 +563,15 @@ html[dir="rtl"] .hero h1.hero-title-long {
 }
 
 .credential-card {
-  position: absolute;
-  inset-inline-start: -38px;
-  inset-block-end: 34px;
-  max-width: 245px;
+  position: relative;
+  width: min(100%, 385px);
+  max-width: 385px;
   padding: 18px 20px;
   color: var(--navy);
   border: 1px solid rgba(182, 138, 69, 0.35);
-  background: rgba(255, 253, 248, 0.93);
+  background: rgba(255, 253, 248, 0.96);
   border-radius: 12px;
-  box-shadow: 0 16px 42px rgba(18, 48, 75, 0.14);
+  box-shadow: 0 14px 34px rgba(18, 48, 75, 0.11);
 }
 
 .credential-card span {
@@ -1946,11 +1947,7 @@ html[dir="rtl"] .footer-column h3 {
   }
 
   .hero-portrait {
-    min-height: 390px;
-  }
-
-  .credential-card {
-    inset-inline-start: -10px;
+    min-height: 450px;
   }
 
   .cards,
@@ -2007,7 +2004,7 @@ html[dir="rtl"] .footer-column h3 {
   }
 
   .hero-portrait {
-    min-height: 305px;
+    min-height: auto;
     margin-block-start: 10px;
   }
 
@@ -2016,7 +2013,7 @@ html[dir="rtl"] .footer-column h3 {
   }
 
   .credential-card {
-    inset-inline-start: 0;
+    width: min(100%, 305px);
   }
 
   .trust-grid,
